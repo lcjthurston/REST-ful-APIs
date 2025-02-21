@@ -2,6 +2,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
+# A Python list of the namnes of our stores
 stores = [
     {
         "name": "My Store",
